@@ -1,0 +1,54 @@
+:root{
+    --main_color :#314985; 
+    --bag_round  :#060607;
+    --logo_font :"Rubik Glitch Pop", system-ui;
+    --backup_handwr  :
+
+}
+
+*{
+    box-sizing: border-box;
+
+}
+body{
+    color: snow;
+    background:var(--bag_round);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+ 
+ 
+ }
+ ul{
+     padding: 0;
+     justify-content: space-between;
+ }
+ 
+ 
+ li{
+     display: inline-block;
+     padding: .5rem;
+     list-style: none;
+     color:var(--snow);
+ }
+ a{
+     text-decoration: none;
+     font-size: 1rem;
+     text-transform: uppercase;
+    color:#fff;
+ 
+ }
+ span{
+     color: var(--main_color);
+ }
+ 
+ h2{
+    font-family: var(--logo_font);
+}
